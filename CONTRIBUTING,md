@@ -1,47 +1,80 @@
-Welcome to the Simple Interest Calculator Project! 🧮
-First off, thank you for considering contributing! It’s people like you who make open-source
-tools better for everyone.
+:tada: First off, thanks for taking the time to contribute! :tada:
+The following is a set of guidelines for contributing to the Simple Interest Calculator. 
+These are mostly guidelines, not rules. Use your best judgment and feel free to propose changes to this document in a pull request.
 
-All contributions—bug reports, bug fixes, documentation improvements, enhancements, and ideas—are welcome.
-
-----------------------------------------------------------------------------------------------------------
+Table Of Contents
+Code of Conduct
 
 How Can I Contribute?
-1. Reporting Bugs
-If you find a calculation error or a script crash:Check the Issues tab to see if it has already been reported.
-If not, open a new issue.
-Describe the input values ($p, r, t$) you used and the incorrect output you received.
 
-2. Suggesting Enhancements
-Want to add features (like Compound Interest or a Web UI)?
+Reporting Bugs
 
-Open an issue labeled "enhancement."
+Suggesting Enhancements
 
-Describe the feature and why it would be useful.
+Pull Requests
+
+Styleguides
+
+Git Commit Messages
+
+Shell Scripting Style
 
 
+Gemini said
+Since you are inspired by the high standard of the Atom Contribution Guidelines, I have adapted that structure specifically for your Simple Interest Calculator project.
 
-3. Pull Requests (Code Changes)
-Ready to write some code? Follow these steps:
+This version maintains the professional tone, table of contents, and emoji-based commit style that makes Atom's docs so famous, while staying relevant to your script.
 
-Fork the repository.
+CONTRIBUTING.md
+:tada: First off, thanks for taking the time to contribute! :tada:
+The following is a set of guidelines for contributing to the Simple Interest Calculator. These are mostly guidelines, not rules. Use your best judgment and feel free to propose changes to this document in a pull request.
 
-Create a Feature Branch (git checkout -b feature/AmazingFeature).
+Table Of Contents
+Code of Conduct
 
-Commit your changes (git commit -m 'Add some AmazingFeature').
+How Can I Contribute?
 
-Push to the branch (git push origin feature/AmazingFeature).
+Reporting Bugs
 
-Open a Pull Request.
+Suggesting Enhancements
 
-Style Guidelines
-Scripting: Please keep the Bash script clean and add comments for any complex logic.
+Pull Requests
 
-Documentation: If you change how the script works, please update the README.md.
+Styleguides
 
-Commits: Use clear, descriptive commit messages (e.g., "Fix: handle decimal interest rates").
+Git Commit Messages
 
-Community & Conduct
-By participating in this project, you agree to abide by our Code of Conduct. Please be respectful and collaborative in all interactions.
+Shell Scripting Style
 
-Happy Coding!
+Code of Conduct
+This project and everyone participating in it is governed by our Code of Conduct. By participating, you are expected to uphold this code.
+
+How Can I Contribute?
+Reporting Bugs
+Bugs are tracked as GitHub issues. When creating a bug report, please include as many details as possible:
+
+Use a clear and descriptive title.
+
+Describe the exact steps to reproduce the error (e.g., what specific numbers did you input for p,r, and t?).
+
+Explain which behavior you expected to see instead and why.
+
+Suggesting Enhancements
+Enhancement suggestions are tracked as GitHub issues.
+
+Provide a step-by-step description of the suggested enhancement.
+
+Explain why this enhancement would be useful to most users (e.g., adding support for monthly interest or a GUI).
+
+Pull Requests
+Fork the repo and create your branch from main.
+
+If you've added code that should be tested, add tests!
+
+Ensure the script runs without errors in a standard Bash environment.
+
+Use the Commit Message Styleguide below.
+
+StyleguidesGit Commit MessagesWe use emojis to make our commit history easy to scan::bug: :bug: when fixing a calculation error or script bug.:memo: :memo: when writing documentation (like updating the README).:art: :art: when improving the format/structure of the shell script.:rocket: :rocket: when improving performance.:white_check_mark: :white_check_mark: when adding tests.Shell Scripting StyleUse 2 or 4 spaces for indentation (no tabs).Keep comments clear and concise.Ensure variable names are descriptive (e.g., principal instead of just p if the script grows).Formula Accuracy: Always double-check the math logic:$$Simple Interest = \frac{Principal \times Time \times Rate}{100}$$
+
+
